@@ -1,0 +1,1299 @@
+{
+ "run": "bench-20261015-111007",
+ "made": "2026-10-15T11:15:56.415+04:00",
+ "settings": "reasoning medium on both; one run per case; prompts identical",
+ "summary": [
+  {
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "answers": 25,
+   "errors": 0,
+   "avg_seconds": 4.15,
+   "avg_tokens_out": 88,
+   "avg_tokens_thinking": 25,
+   "cost_now": 0.1373,
+   "cost_dec": 0.1373,
+   "ch4": {
+    "cases": 20,
+    "category_ok": 20,
+    "urgency_ok": 18,
+    "json_valid": 20,
+    "avg_seconds": 3.555,
+    "cost_per_1000_now": 4.78,
+    "cost_per_1000_dec": 4.78
+   }
+  },
+  {
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "answers": 25,
+   "errors": 0,
+   "avg_seconds": 9.78,
+   "avg_tokens_out": 135,
+   "avg_tokens_thinking": 12,
+   "cost_now": 0.0407,
+   "cost_dec": 0.0813,
+   "ch4": {
+    "cases": 20,
+    "category_ok": 20,
+    "urgency_ok": 18,
+    "json_valid": 20,
+    "avg_seconds": 9.631,
+    "cost_per_1000_now": 1.15,
+    "cost_per_1000_dec": 2.31
+   }
+  }
+ ],
+ "rows": [
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q1",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "What does Section 14 of the US National Robot Courier Safety Act of 2019 require?",
+   "expect": null,
+   "ms": 6043,
+   "text": "I’m not aware of any U.S. federal law titled the **“National Robot Courier Safety Act of 2019.”** The title may be mistaken or refer to a fictional document, so I can’t reliably say what its Section 14 requires.\n\nIf you share a link, bill number, or the text of Section 14, I can help identify the source and explain its requirements.",
+   "tokens_in": 25,
+   "tokens_out": 122,
+   "tokens_thinking": 37,
+   "cost_now": 0.00635,
+   "cost_dec": 0.00635,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q1",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "What does Section 14 of the US National Robot Courier Safety Act of 2019 require?",
+   "expect": null,
+   "ms": 7255,
+   "text": "There is no US federal law called the **\"National Robot Courier Safety Act of 2019.\"** Consequently, there is no Section 14 to reference. \n\nIn the United States, the regulation of autonomous delivery robots (often referred to in legislation as **Personal Delivery Devices** or **PDDs**) has largely been handled at the state and municipal levels rather than through a single federal act. \n\nAround 2019, several individual US states—such as Pennsylvania, Washington, Virginia, and Texas—passed or updated laws regulating PDDs. While these state laws vary, they generally cover similar requirements that you might be thinking of, such as:\n*   **Speed and Weight Limits:** Restricting devices to sidewalk speeds (usually 6 to 12 mph) and specific weight limits (often under 50 to 500 pounds, depending on the state).\n*   **Right-of-Way:** Requiring the robots to yield the right-of-way to pedestrians and bicycles.\n*   **Monitoring:** Requiring a human operator to monitor the device remotely and take control if necessary.\n*   **Equipment:** Requiring braking systems, lights for nighttime operation, and unique identifying markers displaying the owner's contact information.\n*   **Insurance:** Requiring the operating company to maintain a specific amount of general liability insurance.\n\nIf you are referring to a specific state law, a bill from another country, or a piece of legislation from a fictional work, please share a few more details and I can help you find the exact information you need!",
+   "tokens_in": 53,
+   "tokens_out": 328,
+   "tokens_thinking": 0,
+   "cost_now": 0.003386,
+   "cost_dec": 0.006772,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q2",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Summarise the Supreme Court of India's 2022 judgment in Raghavan v. Union Digital Board on AI chatbots.",
+   "expect": null,
+   "ms": 7176,
+   "text": "I can’t identify a reported Supreme Court of India judgment titled **_Raghavan v. Union Digital Board_ (2022)** concerning AI chatbots. The case name appears to be incorrect or possibly fictional, so I shouldn’t invent a summary or legal holding.\n\nPlease share a **citation, case number, judgment link, or excerpt**. With that, I can help verify the case and summarise its facts, legal issues, ruling, and significance.",
+   "tokens_in": 32,
+   "tokens_out": 176,
+   "tokens_thinking": 77,
+   "cost_now": 0.00912,
+   "cost_dec": 0.00912,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q2",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Summarise the Supreme Court of India's 2022 judgment in Raghavan v. Union Digital Board on AI chatbots.",
+   "expect": null,
+   "ms": 28886,
+   "text": "There is no record of a 2022 Supreme Court of India judgment titled ***Raghavan v. Union Digital Board*** concerning AI chatbots. Additionally, there is no government entity in India known as the \"Union Digital Board\" (cases involving digital regulations typically name the *Union of India* through the Ministry of Electronics and Information Technology, or MeitY). \n\nIt is possible that this case is from a **moot court competition**, a fictional scenario, or a hallucination generated by an AI tool. \n\nIf you are researching the actual legal landscape regarding Artificial Intelligence and chatbots in India, here is how they are currently governed:\n\n1. **Information Technology Act, 2000 & IT Rules, 2021:** AI platforms and chatbots generally fall under the regulations governing \"intermediaries.\" However, recent advisories from the Ministry of Electronics and Information Technology (MeitY) in 2023 and 2024 have clarified that platforms must ensure their AI models do not permit unlawful content (under Rule 3(1)(b) of the IT Rules) and must label under-tested or unreliable AI models to inform users of potential fallibility (such as deepfakes or misinformation).\n2. **Digital Personal Data Protection (DPDP) Act, 2023:** While not specific to AI, this Act governs how AI chatbots and companies can collect, process, and store the personal data of Indian citizens, following the landmark fundamental right to privacy judgment in *Justice K.S. Puttaswamy v. Union of India (2017)*.\n3. **Proposed Digital India Act:** The Indian government is currently drafting the Digital India Act to replace the IT Act of 2000, which is expected to include specific regulatory frameworks for high-risk AI systems, algorithmic accountability, and generative AI.\n\nIf *Raghavan v. Union Digital Board* is a hypothetical case from a moot court problem you are working on, please share the facts of the problem, and I would be happy to help you summarise it or identify the relevant legal arguments!",
+   "tokens_in": 58,
+   "tokens_out": 746,
+   "tokens_thinking": 304,
+   "cost_now": 0.007576,
+   "cost_dec": 0.015152,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q3",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Summarise chapter 7 of the book 'The Quiet Algorithm' by Miriam Okonkwo-Hale (2021).",
+   "expect": null,
+   "ms": 5266,
+   "text": "I don’t have reliable information about *The Quiet Algorithm* by Miriam Okonkwo-Hale (2021) or the contents of Chapter 7, so I can’t accurately summarise it without guessing.\n\nIf you paste the chapter or upload images of its pages, I can summarise its main points, key developments, and themes.",
+   "tokens_in": 31,
+   "tokens_out": 155,
+   "tokens_thinking": 81,
+   "cost_now": 0.00806,
+   "cost_dec": 0.00806,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q3",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Summarise chapter 7 of the book 'The Quiet Algorithm' by Miriam Okonkwo-Hale (2021).",
+   "expect": null,
+   "ms": 5068,
+   "text": "I cannot verify the existence of the book *The Quiet Algorithm* by Miriam Okonkwo-Hale, nor can I provide a summary of its chapters. \n\nIt is possible that the title or author's name is slightly different, that it is an obscure or self-published work not widely indexed in standard literary databases, or that the citation refers to a fictional work. If you have an excerpt or specific passage from Chapter 7 that you would like to paste here, I would be happy to summarize or analyze that text for you!",
+   "tokens_in": 57,
+   "tokens_out": 113,
+   "tokens_thinking": 0,
+   "cost_now": 0.001244,
+   "cost_dec": 0.002488,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q4",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "When did the high-speed rail line between Boston and Austin open, and how long is the ride?",
+   "expect": null,
+   "ms": 7812,
+   "text": "There isn’t a high-speed rail line between **Boston, Massachusetts, and Austin, Texas**, so there’s no opening date or high-speed journey time.\n\nYou may be thinking of **Acela**, which serves Boston, New York, and Washington, D.C. Traveling from Boston to Austin by Amtrak requires conventional trains and transfers and takes several days.",
+   "tokens_in": 26,
+   "tokens_out": 175,
+   "tokens_thinking": 98,
+   "cost_now": 0.00901,
+   "cost_dec": 0.00901,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q4",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "When did the high-speed rail line between Boston and Austin open, and how long is the ride?",
+   "expect": null,
+   "ms": 5472,
+   "text": "There is actually no high-speed rail line between Boston, Massachusetts, and Austin, Texas. \n\nCurrently, the closest thing to high-speed rail in that region is Amtrak's **Acela**, which only runs between Boston and Washington, D.C., reaching speeds of up to 150 mph on certain sections of the track. \n\nIf you want to take a train from Boston to Austin today, you have to take conventional Amtrak trains, and the journey is quite long:\n\n1. **Boston to Chicago:** You would take the *Lake Shore Limited*, which takes about **22 hours**.\n2. **Chicago to Austin:** After a layover in Chicago, you would transfer to the *Texas Eagle*, which takes about **30 hours** to reach Austin. \n\nIncluding the layover in Chicago, the total trip takes **roughly 55 to 60 hours** (about two and a half days) covering a distance of around 2,200 miles. \n\n*(Note: If you meant a different city pairing, such as Boston to New York, or the proposed high-speed rail line in Texas between Dallas and Houston, let me know and I can give you the details on those!)*",
+   "tokens_in": 52,
+   "tokens_out": 260,
+   "tokens_thinking": 0,
+   "cost_now": 0.002704,
+   "cost_dec": 0.005408,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q5",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Which award did n8n win at the 2024 Gartner Automation Oscars?",
+   "expect": null,
+   "ms": 6360,
+   "text": "I can’t verify any Gartner award event called the **“2024 Gartner Automation Oscars”** or an n8n win there. The event name may be mistaken. If you share the source, I can help identify the award it refers to.",
+   "tokens_in": 22,
+   "tokens_out": 179,
+   "tokens_thinking": 123,
+   "cost_now": 0.00917,
+   "cost_dec": 0.00917,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "1",
+   "case_id": "Q5",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Which award did n8n win at the 2024 Gartner Automation Oscars?",
+   "expect": null,
+   "ms": 5202,
+   "text": "**n8n did not win an award at the \"2024 Gartner Automation Oscars,\" primarily because that event does not exist.** \n\nGartner is an objective IT research and advisory firm and does not host an awards show called the \"Automation Oscars.\" \n\nWhen people discuss Gartner's recognition of software companies, they are usually referring to one of two things, neither of which n8n won in 2024:\n\n1. **Gartner Magic Quadrant:** This is Gartner's famous market research report that categorizes companies as Leaders, Challengers, Visionaries, or Niche Players (such as the *Magic Quadrant for Enterprise Integration Platform as a Service (iPaaS)*). While n8n is a popular workflow automation tool, it was not named a \"Leader\" in this report in 2024.\n2. **Gartner Peer Insights \"Customers' Choice\":** These are accolades based on verified user reviews on Gartner's platform. \n\nWhile n8n frequently receives high praise and badges on software review sites like **G2** (e.g., \"High Performer\" or \"Momentum Leader\") and **Capterra**, it has not won a \"Gartner Automation Oscar.\"",
+   "tokens_in": 49,
+   "tokens_out": 257,
+   "tokens_thinking": 0,
+   "cost_now": 0.002668,
+   "cost_dec": 0.005336,
+   "error": ""
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E1",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Priya S., Bengaluru:\nHi, I ordered the Sonix wireless earbuds (order VK-IN-55120) on 2 October and the tracking still says 'label created'. It's been 9 days. Where is my parcel?",
+   "expect": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "ms": 3097,
+   "text": "{\"category\":\"order_status\",\"urgency\":\"normal\",\"reply\":\"Hi Priya, I’m sorry your earbuds haven’t arrived and the tracking hasn’t updated after 9 days. We’ll check order VK-IN-55120 with our shipping team and update you on its status.\"}",
+   "tokens_in": 139,
+   "tokens_out": 61,
+   "tokens_thinking": 0,
+   "cost_now": 0.00444,
+   "cost_dec": 0.00444,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E1",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Priya S., Bengaluru:\nHi, I ordered the Sonix wireless earbuds (order VK-IN-55120) on 2 October and the tracking still says 'label created'. It's been 9 days. Where is my parcel?",
+   "expect": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "ms": 26931,
+   "text": "{\n  \"category\": \"order_status\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Dear Priya, thank you for reaching out. I sincerely apologize for the delay with your Sonix wireless earbuds (Order #VK-IN-55120). We are currently checking with our courier partner to see why the tracking has not updated since October 2nd. We will get back to you with an update on your parcel's status as soon as possible.\"\n}",
+   "tokens_in": 174,
+   "tokens_out": 107,
+   "tokens_thinking": 0,
+   "cost_now": 0.001418,
+   "cost_dec": 0.002836,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E2",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Mark T., Ohio:\nMy new 55-inch TV arrived with a cracked screen. The box had a big dent on one corner. I have photos. I need this fixed before my daughter's birthday party tomorrow.",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "ms": 3772,
+   "text": "{\"category\":\"damaged_item\",\"urgency\":\"high\",\"reply\":\"Hi Mark, I’m sorry your new TV arrived with a cracked screen, especially with your daughter’s birthday party tomorrow. Please send your order number and photos of the screen and damaged box so we can urgently review the fastest available resolution.\"}",
+   "tokens_in": 134,
+   "tokens_out": 66,
+   "tokens_thinking": 0,
+   "cost_now": 0.00464,
+   "cost_dec": 0.00464,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E2",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Mark T., Ohio:\nMy new 55-inch TV arrived with a cracked screen. The box had a big dent on one corner. I have photos. I need this fixed before my daughter's birthday party tomorrow.",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "ms": 3457,
+   "text": "{\"category\": \"damaged_item\", \"urgency\": \"high\", \"reply\": \"Hi Mark, I am so sorry your TV arrived damaged, especially right before your daughter's birthday party. Please reply with the photos of the cracked screen and the dented box, along with your order number, so we can urgently resolve this for you.\"}",
+   "tokens_in": 168,
+   "tokens_out": 74,
+   "tokens_thinking": 0,
+   "cost_now": 0.001076,
+   "cost_dec": 0.002152,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E3",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Ananya R., Hyderabad:\nI returned the smartwatch 3 weeks ago and the courier confirmed pickup, but I still haven't got my refund of Rs 8,499. Please check.",
+   "expect": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "ms": 3498,
+   "text": "{\"category\":\"refund\",\"urgency\":\"high\",\"reply\":\"Hi Ananya, I’m sorry your Rs 8,499 refund hasn’t arrived after three weeks. Please share your order ID and courier pickup confirmation so we can check the refund status.\"}",
+   "tokens_in": 129,
+   "tokens_out": 86,
+   "tokens_thinking": 29,
+   "cost_now": 0.00559,
+   "cost_dec": 0.00559,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": false
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E3",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Ananya R., Hyderabad:\nI returned the smartwatch 3 weeks ago and the courier confirmed pickup, but I still haven't got my refund of Rs 8,499. Please check.",
+   "expect": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "ms": 2771,
+   "text": "{\n  \"category\": \"refund\",\n  \"urgency\": \"high\",\n  \"reply\": \"Dear Ananya, I apologize for the delay in receiving your refund of Rs 8,499 for the returned smartwatch. Could you please reply with your order number or return tracking ID? I will immediately look into this and expedite your refund.\"\n}",
+   "tokens_in": 163,
+   "tokens_out": 79,
+   "tokens_thinking": 0,
+   "cost_now": 0.001116,
+   "cost_dec": 0.002232,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": false
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E4",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Jason L., Texas:\nDo you ship the ProCam 4K webcam to Canada? And is there a bulk discount if I buy 25 for my office?",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 2444,
+   "text": "{\"category\":\"sales_question\",\"urgency\":\"normal\",\"reply\":\"Hi Jason, thanks for your interest in the ProCam 4K webcam! We’ll check shipping availability to Canada and bulk pricing for 25 units. Could you share your Canadian delivery postal code?\"}",
+   "tokens_in": 125,
+   "tokens_out": 58,
+   "tokens_thinking": 0,
+   "cost_now": 0.00415,
+   "cost_dec": 0.00415,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E4",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Jason L., Texas:\nDo you ship the ProCam 4K webcam to Canada? And is there a bulk discount if I buy 25 for my office?",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 3769,
+   "text": "{\n  \"category\": \"sales_question\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Hi Jason, thank you for reaching out! I would be happy to check our shipping options to Canada and look into bulk pricing for 25 ProCam 4K webcams for your office. A member of our sales team will follow up with you shortly with a quote and shipping details.\"\n}",
+   "tokens_in": 156,
+   "tokens_out": 90,
+   "tokens_thinking": 0,
+   "cost_now": 0.001212,
+   "cost_dec": 0.002424,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E5",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Rahul M., Delhi:\nThe power bank you sent is getting very hot while charging and there's a burning smell. I've unplugged it. Is it safe? What should I do?",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "ms": 3703,
+   "text": "{\"category\":\"damaged_item\",\"urgency\":\"high\",\"reply\":\"Hi Rahul, you did the right thing by unplugging it. Overheating and a burning smell indicate a safety risk—do not use or recharge the power bank. Keep away from it while hot and, if safe, keep it away from flammable materials. If it smokes or catches fire, move away and call emergency services. Please share your order number so we can arrange a safe resolution.\"}",
+   "tokens_in": 128,
+   "tokens_out": 100,
+   "tokens_thinking": 0,
+   "cost_now": 0.00628,
+   "cost_dec": 0.00628,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E5",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Rahul M., Delhi:\nThe power bank you sent is getting very hot while charging and there's a burning smell. I've unplugged it. Is it safe? What should I do?",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "ms": 3582,
+   "text": "{\"category\": \"damaged_item\", \"urgency\": \"high\", \"reply\": \"Dear Rahul, thank you for reaching out. For your safety, please do not plug the power bank back in or use it, and keep it away from any flammable materials. Please reply with your order number so we can immediately arrange a safe replacement or a full refund for you.\"}",
+   "tokens_in": 161,
+   "tokens_out": 78,
+   "tokens_thinking": 0,
+   "cost_now": 0.001102,
+   "cost_dec": 0.002204,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E6",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Emily C., California:\nMy Bluetooth speaker won't pair with my iPhone after the latest update. It shows up in the list but then disconnects. I've tried restarting both.",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "ms": 2898,
+   "text": "{\"category\":\"technical_help\",\"urgency\":\"normal\",\"reply\":\"Hi Emily, sorry your speaker keeps disconnecting. Please try forgetting the speaker in your iPhone’s Bluetooth settings, then put it in pairing mode and reconnect. If that doesn’t help, could you share the speaker model and your iOS version?\"}",
+   "tokens_in": 127,
+   "tokens_out": 68,
+   "tokens_thinking": 0,
+   "cost_now": 0.00467,
+   "cost_dec": 0.00467,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E6",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Emily C., California:\nMy Bluetooth speaker won't pair with my iPhone after the latest update. It shows up in the list but then disconnects. I've tried restarting both.",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "ms": 25325,
+   "text": "{\n  \"category\": \"technical_help\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Hi Emily, thank you for reaching out. I'm sorry to hear you're having trouble pairing your Bluetooth speaker after the recent update. Could you pleasetry 'forgetting' the speaker in your iPhone's Bluetooth settings and then pairing it again from scratch? If that doesn't work, please reply with the speaker's model number so we can assist you further.\"\n}",
+   "tokens_in": 160,
+   "tokens_out": 109,
+   "tokens_thinking": 0,
+   "cost_now": 0.00141,
+   "cost_dec": 0.00282,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E7",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Sanjay K., Chennai:\nI was charged twice for order VK-IN-55871. Two debits of Rs 12,999 each on my credit card. Please refund the extra one urgently, my card limit is blocked.",
+   "expect": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "ms": 2816,
+   "text": "{\"category\":\"refund\",\"urgency\":\"high\",\"reply\":\"Hi Sanjay, I’m sorry about the duplicate charge of Rs 12,999 for order VK-IN-55871. We understand this is blocking your card limit and will prioritize reviewing the charges and arranging a refund for the extra payment.\"}",
+   "tokens_in": 138,
+   "tokens_out": 65,
+   "tokens_thinking": 0,
+   "cost_now": 0.00463,
+   "cost_dec": 0.00463,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E7",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Sanjay K., Chennai:\nI was charged twice for order VK-IN-55871. Two debits of Rs 12,999 each on my credit card. Please refund the extra one urgently, my card limit is blocked.",
+   "expect": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "ms": 2632,
+   "text": "{\n  \"category\": \"refund\",\n  \"urgency\": \"high\",\n  \"reply\": \"Dear Sanjay, we sincerely apologize for the double charge on order VK-IN-55871. We are prioritizing this issue with our billing team to release the blocked amount and process your refund of Rs 12,999 immediately. We will update you shortly.\"\n}",
+   "tokens_in": 174,
+   "tokens_out": 86,
+   "tokens_thinking": 0,
+   "cost_now": 0.001208,
+   "cost_dec": 0.002416,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E8",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Laura P., New York:\nHi! Is the Aura robot vacuum compatible with Alexa? And does it work on thick carpets?",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 4363,
+   "text": "{\"category\":\"sales_question\",\"urgency\":\"normal\",\"reply\":\"Hi Laura! Could you share the exact Aura model you're considering? We can then confirm its Alexa compatibility and suitability for thick carpets.\"}",
+   "tokens_in": 117,
+   "tokens_out": 44,
+   "tokens_thinking": 0,
+   "cost_now": 0.00337,
+   "cost_dec": 0.00337,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E8",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Laura P., New York:\nHi! Is the Aura robot vacuum compatible with Alexa? And does it work on thick carpets?",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 5382,
+   "text": "{\"category\": \"sales_question\", \"urgency\": \"normal\", \"reply\": \"Hi Laura! Thanks for reaching out. I'd be happy to check the Aura robot vacuum's compatibility with Alexa and its performance on thick carpets for you. I will get back to you shortly with those details!\"}",
+   "tokens_in": 147,
+   "tokens_out": 67,
+   "tokens_thinking": 0,
+   "cost_now": 0.000964,
+   "cost_dec": 0.001928,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E9",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Vikram N., Mumbai:\nOrder VK-IN-56002 shows delivered but I never received it. Nobody in my building got it either. This is a laptop worth Rs 74,000.",
+   "expect": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "ms": 2425,
+   "text": "{\"category\":\"order_status\",\"urgency\":\"high\",\"reply\":\"Hi Vikram, I’m sorry your laptop hasn’t arrived despite being marked delivered. We’ll urgently investigate order VK-IN-56002 with the courier and update you on the next steps.\"}",
+   "tokens_in": 131,
+   "tokens_out": 56,
+   "tokens_thinking": 0,
+   "cost_now": 0.00411,
+   "cost_dec": 0.00411,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E9",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Vikram N., Mumbai:\nOrder VK-IN-56002 shows delivered but I never received it. Nobody in my building got it either. This is a laptop worth Rs 74,000.",
+   "expect": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "ms": 4785,
+   "text": "{\n  \"category\": \"order_status\",\n  \"urgency\": \"high\",\n  \"reply\": \"Dear Vikram, I am very sorry to hear that your laptop has not arrived despite being marked as delivered. Because this is a high-value item, I am urgently investigating this with our courier partner and will update you as soon as possible.\"\n}",
+   "tokens_in": 167,
+   "tokens_out": 79,
+   "tokens_thinking": 0,
+   "cost_now": 0.001124,
+   "cost_dec": 0.002248,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E10",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Daniel W., Florida:\nHow do I reset the SmartHub router to factory settings? The admin page won't load and I've lost my Wi-Fi password.",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "ms": 4842,
+   "text": "{\"category\":\"technical_help\",\"urgency\":\"normal\",\"reply\":\"Hi Daniel, you can usually restore factory settings by holding the router’s Reset button while it’s powered on. This will erase your current settings. Could you share your SmartHub model number so we can confirm the exact steps?\"}",
+   "tokens_in": 122,
+   "tokens_out": 63,
+   "tokens_thinking": 0,
+   "cost_now": 0.00437,
+   "cost_dec": 0.00437,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E10",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Daniel W., Florida:\nHow do I reset the SmartHub router to factory settings? The admin page won't load and I've lost my Wi-Fi password.",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "ms": 10151,
+   "text": "{\n  \"category\": \"technical_help\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Hi Daniel, thank you for reaching out. To reset your SmartHub router to factory settings, please locate the small reset pinhole on the back of the device while it is powered on, and press and hold it with a paperclip for about 10 seconds until the lights flash. Once it reboots, you can connect using the default Wi-Fi credentials printed on the sticker at the bottom of the router. Please let us know if you need any further assistance!\"\n}",
+   "tokens_in": 157,
+   "tokens_out": 125,
+   "tokens_thinking": 0,
+   "cost_now": 0.001564,
+   "cost_dec": 0.003128,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E11",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Meera J., Pune:\nThe headphones I received are the wrong colour. I ordered black, got white. Can I exchange them or should I return for a refund?",
+   "expect": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "ms": 3956,
+   "text": "{\"category\":\"refund\",\"urgency\":\"normal\",\"reply\":\"Hi Meera, sorry you received white headphones instead of black. Please share your order number so we can check the exchange and refund options for you.\"}",
+   "tokens_in": 126,
+   "tokens_out": 80,
+   "tokens_thinking": 31,
+   "cost_now": 0.00526,
+   "cost_dec": 0.00526,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E11",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Meera J., Pune:\nThe headphones I received are the wrong colour. I ordered black, got white. Can I exchange them or should I return for a refund?",
+   "expect": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "ms": 32689,
+   "text": "{\"category\": \"refund\", \"urgency\": \"normal\", \"reply\": \"Hi Meera, I'm so sorry you received the wrong colour headphones. Could you please reply with your order number? We'd be happy to help you exchange them for the black ones or process a return for a full refund.\"}",
+   "tokens_in": 156,
+   "tokens_out": 68,
+   "tokens_thinking": 0,
+   "cost_now": 0.000992,
+   "cost_dec": 0.001984,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E12",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Kevin R., Illinois:\nWhen will the Zen tablet be back in stock? I want to buy it as a gift before the end of next month.",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 2798,
+   "text": "{\"category\":\"sales_question\",\"urgency\":\"normal\",\"reply\":\"Hi Kevin, thanks for your interest in the Zen tablet! We’ll check the expected restock date so you can plan your gift purchase before the end of next month.\"}",
+   "tokens_in": 122,
+   "tokens_out": 52,
+   "tokens_thinking": 0,
+   "cost_now": 0.00382,
+   "cost_dec": 0.00382,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E12",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Kevin R., Illinois:\nWhen will the Zen tablet be back in stock? I want to buy it as a gift before the end of next month.",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 35931,
+   "text": "{\"category\": \"sales_question\", \"urgency\": \"normal\", \"reply\": \"Hi Kevin, thank you for your interest in the Zen tablet! Let me check with our inventory team on the expected restock date, and I will get back to you shortly.\"}",
+   "tokens_in": 152,
+   "tokens_out": 58,
+   "tokens_thinking": 0,
+   "cost_now": 0.000884,
+   "cost_dec": 0.001768,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E13",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Arjun T., Kochi:\nMy order was supposed to arrive yesterday for my sister's wedding today. Tracking hasn't moved from the Kochi hub for 2 days. Please help, I need it by this evening.",
+   "expect": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "ms": 2738,
+   "text": "{\"category\":\"order_status\",\"urgency\":\"high\",\"reply\":\"Hi Arjun, I’m sorry your order is delayed, especially with your sister’s wedding today. Please share your order number so we can urgently check with the courier whether delivery by this evening is possible.\"}",
+   "tokens_in": 136,
+   "tokens_out": 59,
+   "tokens_thinking": 0,
+   "cost_now": 0.00431,
+   "cost_dec": 0.00431,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E13",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Arjun T., Kochi:\nMy order was supposed to arrive yesterday for my sister's wedding today. Tracking hasn't moved from the Kochi hub for 2 days. Please help, I need it by this evening.",
+   "expect": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "ms": 8240,
+   "text": "{\n  \"category\": \"order_status\",\n  \"urgency\": \"high\",\n  \"reply\": \"Dear Arjun, I am so sorry for the delay, especially with your sister's wedding today. Please reply with your order number immediately so I can contact the Kochi courier hub and try to expedite your delivery for this evening.\"\n}",
+   "tokens_in": 166,
+   "tokens_out": 76,
+   "tokens_thinking": 0,
+   "cost_now": 0.001092,
+   "cost_dec": 0.002184,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E14",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Sarah M., Washington:\nThe fitness band screen has a dead line of pixels down the middle. It arrived like this, never dropped it.",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "ms": 2593,
+   "text": "{\"category\":\"damaged_item\",\"urgency\":\"normal\",\"reply\":\"Hi Sarah, I’m sorry your fitness band arrived with a defective screen. Please send your order number and a photo of the screen so we can help arrange a replacement or refund.\"}",
+   "tokens_in": 120,
+   "tokens_out": 55,
+   "tokens_thinking": 0,
+   "cost_now": 0.00395,
+   "cost_dec": 0.00395,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E14",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Sarah M., Washington:\nThe fitness band screen has a dead line of pixels down the middle. It arrived like this, never dropped it.",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "ms": 5752,
+   "text": "{\n  \"category\": \"damaged_item\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Hi Sarah, we're very sorry to hear that your fitness band arrived with a defective screen. Please reply with your order number and a quick photo of the screen so we can send you a replacement right away.\"\n}",
+   "tokens_in": 150,
+   "tokens_out": 74,
+   "tokens_thinking": 0,
+   "cost_now": 0.00104,
+   "cost_dec": 0.00208,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E15",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Nikhil B., Jaipur:\nThe VoltKart app keeps crashing when I try to apply a coupon at checkout. I'm on Android 15. Can you fix it so I can complete my order?",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "ms": 2445,
+   "text": "{\"category\":\"technical_help\",\"urgency\":\"normal\",\"reply\":\"Hi Nikhil, sorry the app is crashing when you apply a coupon. Please try updating the VoltKart app and restarting it. If it still crashes, could you share your app version and coupon code? You can also try checking out on our website.\"}",
+   "tokens_in": 132,
+   "tokens_out": 70,
+   "tokens_thinking": 0,
+   "cost_now": 0.00482,
+   "cost_dec": 0.00482,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E15",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Nikhil B., Jaipur:\nThe VoltKart app keeps crashing when I try to apply a coupon at checkout. I'm on Android 15. Can you fix it so I can complete my order?",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "ms": 3879,
+   "text": "{\"category\": \"technical_help\", \"urgency\": \"normal\", \"reply\": \"Hi Nikhil, thank you for reaching out. We are sorry to hear that the VoltKart app is crashing on Android 15. We have forwarded this issue to our tech team to fix right away. In the meantime, please try completing your purchase and applying the coupon through our mobile website.\"}",
+   "tokens_in": 164,
+   "tokens_out": 82,
+   "tokens_thinking": 0,
+   "cost_now": 0.001148,
+   "cost_dec": 0.002296,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E16",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Olivia G., Georgia:\nI cancelled my order within 10 minutes but I was still charged $189. The order shows cancelled. When do I get my money back?",
+   "expect": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "ms": 5643,
+   "text": "{\"category\":\"refund\",\"urgency\":\"high\",\"reply\":\"Hi Olivia, I’m sorry the $189 charge is still showing after your cancellation. Please share your order number so we can check the refund status and confirm when you can expect your money back.\"}",
+   "tokens_in": 126,
+   "tokens_out": 85,
+   "tokens_thinking": 27,
+   "cost_now": 0.00551,
+   "cost_dec": 0.00551,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": false
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E16",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Olivia G., Georgia:\nI cancelled my order within 10 minutes but I was still charged $189. The order shows cancelled. When do I get my money back?",
+   "expect": {
+    "category": "refund",
+    "urgency": "normal"
+   },
+   "ms": 3932,
+   "text": "{\"category\": \"refund\", \"urgency\": \"high\", \"reply\": \"Hi Olivia, thank you for reaching out. Since your order was cancelled quickly, the $189 charge is likely a pending authorization hold that will drop off within 3-5 business days, or a refund is already processing. Please reply with your order number so I can check the exact status for you right away.\"}",
+   "tokens_in": 159,
+   "tokens_out": 85,
+   "tokens_thinking": 0,
+   "cost_now": 0.001168,
+   "cost_dec": 0.002336,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "refund",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": false
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E17",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Rohan D., Kolkata:\nIs there an EMI option for the 65-inch OLED TV with HDFC credit cards? And is installation included?",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 3021,
+   "text": "{\"category\":\"sales_question\",\"urgency\":\"normal\",\"reply\":\"Hi Rohan, thank you for your interest! Please share the TV model or product link so we can confirm HDFC credit card EMI options and whether installation is included.\"}",
+   "tokens_in": 121,
+   "tokens_out": 52,
+   "tokens_thinking": 0,
+   "cost_now": 0.00381,
+   "cost_dec": 0.00381,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E17",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Rohan D., Kolkata:\nIs there an EMI option for the 65-inch OLED TV with HDFC credit cards? And is installation included?",
+   "expect": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "ms": 3350,
+   "text": "{\n  \"category\": \"sales_question\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Hello Rohan, thank you for reaching out! We would be happy to help you with details regarding the 65-inch OLED TV. A member of our sales team is checking the current HDFC credit card EMI offers and installation options for your location in Kolkata, and will get back to you shortly.\"\n}",
+   "tokens_in": 151,
+   "tokens_out": 91,
+   "tokens_thinking": 0,
+   "cost_now": 0.001212,
+   "cost_dec": 0.002424,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "sales_question",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E18",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Michael B., Arizona:\nPackage says out for delivery since 8 am, it's now 9 pm. Is it still coming today? Order VK-US-30914.",
+   "expect": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "ms": 3965,
+   "text": "{\"category\":\"order_status\",\"urgency\":\"normal\",\"reply\":\"Hi Michael, I’m sorry your delivery is running late. I can help check the latest status for order VK-US-30914 to see whether delivery is still expected today.\"}",
+   "tokens_in": 126,
+   "tokens_out": 53,
+   "tokens_thinking": 0,
+   "cost_now": 0.00391,
+   "cost_dec": 0.00391,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E18",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Michael B., Arizona:\nPackage says out for delivery since 8 am, it's now 9 pm. Is it still coming today? Order VK-US-30914.",
+   "expect": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "ms": 3850,
+   "text": "{\"category\": \"order_status\", \"urgency\": \"normal\", \"reply\": \"Hi Michael, thank you for reaching out. Since it is already 9 pm, it is likely the carrier will complete the delivery for order VK-US-30914 on the next business day. We are checking the tracking details on our end and will let you know if the status updates.\"}",
+   "tokens_in": 162,
+   "tokens_out": 84,
+   "tokens_thinking": 0,
+   "cost_now": 0.001164,
+   "cost_dec": 0.002328,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "order_status",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E19",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Divya P., Ahmedabad:\nThe camera lens I received has a scratch inside the glass and the box seal was already broken. Looks used. I'm very unhappy.",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "ms": 3603,
+   "text": "{\"category\":\"damaged_item\",\"urgency\":\"normal\",\"reply\":\"Hi Divya, I’m sorry your lens arrived with a scratch and a broken seal. Please share your order number and photos of the lens and packaging so we can help arrange a replacement or refund.\"}",
+   "tokens_in": 124,
+   "tokens_out": 59,
+   "tokens_thinking": 0,
+   "cost_now": 0.00419,
+   "cost_dec": 0.00419,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E19",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Divya P., Ahmedabad:\nThe camera lens I received has a scratch inside the glass and the box seal was already broken. Looks used. I'm very unhappy.",
+   "expect": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "ms": 3314,
+   "text": "{\n  \"category\": \"damaged_item\",\n  \"urgency\": \"normal\",\n  \"reply\": \"Dear Divya, I am very sorry to hear that your camera lens arrived with a broken seal and a scratch. Could you please reply with your order number and a photo of the damage so we can arrange a replacement or refund for you right away?\"\n}",
+   "tokens_in": 156,
+   "tokens_out": 81,
+   "tokens_thinking": 0,
+   "cost_now": 0.001122,
+   "cost_dec": 0.002244,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "damaged_item",
+    "urgency": "normal"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E20",
+   "model": "gpt-6-astra",
+   "label": "GPT-6 Astra",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Chris H., Colorado:\nMy smart thermostat stopped working and the house is freezing, it's -5 outside. The display is blank even after changing batteries. Need help now.",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "high"
+   },
+   "ms": 6479,
+   "text": "{\"category\":\"technical_help\",\"urgency\":\"high\",\"reply\":\"I'm sorry your thermostat has stopped working in this extreme cold. Please prioritize getting somewhere safely heated if the house is dangerously cold. What thermostat model do you have, and is the heating system completely off?\"}",
+   "tokens_in": 126,
+   "tokens_out": 171,
+   "tokens_thinking": 111,
+   "cost_now": 0.00981,
+   "cost_dec": 0.00981,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  },
+  {
+   "run": "bench-20261015-111007",
+   "chapter": "4",
+   "case_id": "E20",
+   "model": "gemini-4-argon",
+   "label": "Gemini 4 Argon",
+   "prompt": "Classify this customer email for an online electronics shop. Return only JSON: {\"category\": one of order_status | refund | damaged_item | technical_help | sales_question, \"urgency\": high | normal, \"reply\": a short, polite first reply}. Urgency is high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days.\n\nEmail from Chris H., Colorado:\nMy smart thermostat stopped working and the house is freezing, it's -5 outside. The display is blank even after changing batteries. Need help now.",
+   "expect": {
+    "category": "technical_help",
+    "urgency": "high"
+   },
+   "ms": 2897,
+   "text": "{\"category\": \"technical_help\", \"urgency\": \"high\", \"reply\": \"Hi Chris, I am very sorry to hear your thermostat isn't working, especially in those freezing temperatures. I have escalated your message to our technical support team as an urgent priority, and an agent will contact you shortly to help get your heat back on.\"}",
+   "tokens_in": 158,
+   "tokens_out": 74,
+   "tokens_thinking": 0,
+   "cost_now": 0.001056,
+   "cost_dec": 0.002112,
+   "error": "",
+   "json_valid": true,
+   "got": {
+    "category": "technical_help",
+    "urgency": "high"
+   },
+   "category_ok": true,
+   "urgency_ok": true
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "shop": "VoltKart (fictional online electronics shop selling in India and the US)",
+ "categories": [
+  "order_status",
+  "refund",
+  "damaged_item",
+  "technical_help",
+  "sales_question"
+ ],
+ "urgency": [
+  "high",
+  "normal"
+ ],
+ "emails": [
+  {
+   "id": 1,
+   "from": "Priya S., Bengaluru",
+   "text": "Hi, I ordered the Sonix wireless earbuds (order VK-IN-55120) on 2 October and the tracking still says 'label created'. It's been 9 days. Where is my parcel?",
+   "category": "order_status",
+   "urgency": "normal"
+  },
+  {
+   "id": 2,
+   "from": "Mark T., Ohio",
+   "text": "My new 55-inch TV arrived with a cracked screen. The box had a big dent on one corner. I have photos. I need this fixed before my daughter's birthday party tomorrow.",
+   "category": "damaged_item",
+   "urgency": "high"
+  },
+  {
+   "id": 3,
+   "from": "Ananya R., Hyderabad",
+   "text": "I returned the smartwatch 3 weeks ago and the courier confirmed pickup, but I still haven't got my refund of Rs 8,499. Please check.",
+   "category": "refund",
+   "urgency": "normal"
+  },
+  {
+   "id": 4,
+   "from": "Jason L., Texas",
+   "text": "Do you ship the ProCam 4K webcam to Canada? And is there a bulk discount if I buy 25 for my office?",
+   "category": "sales_question",
+   "urgency": "normal"
+  },
+  {
+   "id": 5,
+   "from": "Rahul M., Delhi",
+   "text": "The power bank you sent is getting very hot while charging and there's a burning smell. I've unplugged it. Is it safe? What should I do?",
+   "category": "damaged_item",
+   "urgency": "high"
+  },
+  {
+   "id": 6,
+   "from": "Emily C., California",
+   "text": "My Bluetooth speaker won't pair with my iPhone after the latest update. It shows up in the list but then disconnects. I've tried restarting both.",
+   "category": "technical_help",
+   "urgency": "normal"
+  },
+  {
+   "id": 7,
+   "from": "Sanjay K., Chennai",
+   "text": "I was charged twice for order VK-IN-55871. Two debits of Rs 12,999 each on my credit card. Please refund the extra one urgently, my card limit is blocked.",
+   "category": "refund",
+   "urgency": "high"
+  },
+  {
+   "id": 8,
+   "from": "Laura P., New York",
+   "text": "Hi! Is the Aura robot vacuum compatible with Alexa? And does it work on thick carpets?",
+   "category": "sales_question",
+   "urgency": "normal"
+  },
+  {
+   "id": 9,
+   "from": "Vikram N., Mumbai",
+   "text": "Order VK-IN-56002 shows delivered but I never received it. Nobody in my building got it either. This is a laptop worth Rs 74,000.",
+   "category": "order_status",
+   "urgency": "high"
+  },
+  {
+   "id": 10,
+   "from": "Daniel W., Florida",
+   "text": "How do I reset the SmartHub router to factory settings? The admin page won't load and I've lost my Wi-Fi password.",
+   "category": "technical_help",
+   "urgency": "normal"
+  },
+  {
+   "id": 11,
+   "from": "Meera J., Pune",
+   "text": "The headphones I received are the wrong colour. I ordered black, got white. Can I exchange them or should I return for a refund?",
+   "category": "refund",
+   "urgency": "normal"
+  },
+  {
+   "id": 12,
+   "from": "Kevin R., Illinois",
+   "text": "When will the Zen tablet be back in stock? I want to buy it as a gift before the end of next month.",
+   "category": "sales_question",
+   "urgency": "normal"
+  },
+  {
+   "id": 13,
+   "from": "Arjun T., Kochi",
+   "text": "My order was supposed to arrive yesterday for my sister's wedding today. Tracking hasn't moved from the Kochi hub for 2 days. Please help, I need it by this evening.",
+   "category": "order_status",
+   "urgency": "high"
+  },
+  {
+   "id": 14,
+   "from": "Sarah M., Washington",
+   "text": "The fitness band screen has a dead line of pixels down the middle. It arrived like this, never dropped it.",
+   "category": "damaged_item",
+   "urgency": "normal"
+  },
+  {
+   "id": 15,
+   "from": "Nikhil B., Jaipur",
+   "text": "The VoltKart app keeps crashing when I try to apply a coupon at checkout. I'm on Android 15. Can you fix it so I can complete my order?",
+   "category": "technical_help",
+   "urgency": "normal"
+  },
+  {
+   "id": 16,
+   "from": "Olivia G., Georgia",
+   "text": "I cancelled my order within 10 minutes but I was still charged $189. The order shows cancelled. When do I get my money back?",
+   "category": "refund",
+   "urgency": "normal"
+  },
+  {
+   "id": 17,
+   "from": "Rohan D., Kolkata",
+   "text": "Is there an EMI option for the 65-inch OLED TV with HDFC credit cards? And is installation included?",
+   "category": "sales_question",
+   "urgency": "normal"
+  },
+  {
+   "id": 18,
+   "from": "Michael B., Arizona",
+   "text": "Package says out for delivery since 8 am, it's now 9 pm. Is it still coming today? Order VK-US-30914.",
+   "category": "order_status",
+   "urgency": "normal"
+  },
+  {
+   "id": 19,
+   "from": "Divya P., Ahmedabad",
+   "text": "The camera lens I received has a scratch inside the glass and the box seal was already broken. Looks used. I'm very unhappy.",
+   "category": "damaged_item",
+   "urgency": "normal"
+  },
+  {
+   "id": 20,
+   "from": "Chris H., Colorado",
+   "text": "My smart thermostat stopped working and the house is freezing, it's -5 outside. The display is blank even after changing batteries. Need help now.",
+   "category": "technical_help",
+   "urgency": "high"
+  }
+ ],
+ "notes": "Counts: order_status 4, refund 4, damaged_item 4, technical_help 4, sales_question 4; urgency high 6 (ids 2,5,7,9,13,20), normal 14. Borderline cases decided in advance: #11 wrong colour = refund (asks exchange or refund, not damaged); #16 cancelled-but-charged = refund; #5 overheating = damaged_item + high (safety).",
+ "urgency_rule": "high only for: a safety risk, money currently blocked, a high-value item missing, or a hard deadline within 1-2 days; everything else normal"
+}
